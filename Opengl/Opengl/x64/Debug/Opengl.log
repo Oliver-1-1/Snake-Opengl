@@ -1,0 +1,3 @@
+﻿  Snake.cpp
+C:\Users\olive\source\repos\Opengl\Opengl\Snake.cpp(33,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Opengl.vcxproj -> C:\Users\olive\source\repos\Opengl\x64\Debug\Opengl.exe
