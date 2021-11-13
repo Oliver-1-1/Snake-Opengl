@@ -11,7 +11,6 @@ void Snake::update_vertices(glm::vec2 pos, float(&ver)[8])
 
 void Snake::update_check_if_collide(Node* n, float(&ver)[8])
 {
-
     auto temp = n;
     n = n->next; // Do not count head pos
     glm::vec2 t = get_cords(ver);
