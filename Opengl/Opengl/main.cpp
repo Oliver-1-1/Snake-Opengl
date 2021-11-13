@@ -49,7 +49,6 @@ int main(void)
     
     while (!glfwWindowShouldClose(window.window) && !snake.game_over)
     {
-
         glClear(GL_COLOR_BUFFER_BIT);
         snake.update_check_if_collide(snake.head, snake.head->data); // Check collsion and end game if that is the case
         snake.food_collide(snake.head, food);

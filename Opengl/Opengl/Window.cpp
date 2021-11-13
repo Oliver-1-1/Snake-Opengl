@@ -8,7 +8,6 @@ Window::Window(int width, int height, std::string title)
 
 	if (!init())
 		std::cout << "Init for window failed!\n";
-
 }
 
 Window::~Window()
@@ -18,7 +17,6 @@ Window::~Window()
 
 bool Window::init()
 {
-
     if (!glfwInit())
         return false;
 

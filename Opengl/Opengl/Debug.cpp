@@ -1,6 +1,4 @@
 #include "Debug.h"
-
-
 void GLClearError() { while (glGetError() != GLFW_NO_ERROR); }
 
 bool GLLogCall(const char* func, const char* file, unsigned int line)
